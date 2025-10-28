@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+}
+
+::-webkit-scrollbar
+{
+  width:8px;
+  height:8px;
+  background-color:transparent;
+}
+
+/*定义滑块
+ 内阴影+圆角*/
+/*  鼠标hover的时候才显示滚动条 */
+:hover::-webkit-scrollbar-thumb
+{
+  border-radius:5px;
+  -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.1);
+  background-color:rgba(0,0,0,0.2);
+}

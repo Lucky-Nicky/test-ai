@@ -1,0 +1,56 @@
+.actionBar {
+  display: flex;
+  position: relative;
+  //height: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.nodeOperation{
+  padding-left: 5px;
+  margin-right: 5px;
+  background: #99a0ac;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  justify-content: flex-end;
+}
+
+
+.nodeText{
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nodeBox{
+  .resizeHandle{
+    height: 100%;
+    width: 5px;
+    background: #1677ff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: col-resize;
+    visibility: hidden;
+  };
+}
+
+.nodeBox:hover .resizeHandle{
+  visibility: visible;
+}
+
+/* 自定义展开控制器样式 */
+jmnodes jmexpander {
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

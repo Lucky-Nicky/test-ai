@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author": "nicky-deng <819083144@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.12.8",
+    "axios": "^1.5.1",
+    "copy-to-clipboard": "^3.3.3",
+    "highlight.js": "^11.9.0",
+    "jsmind": "^0.8.5",
+    "react-pdf": "^7.5.1",
+    "react-resizable": "^3.0.5",
+    "showdown": "^2.1.0",
+    "umi": "^4.0.87"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
